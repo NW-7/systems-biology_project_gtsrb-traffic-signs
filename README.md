@@ -4,7 +4,7 @@
 Проект посвящен классификации 12 классов дорожных знаков из датасета German Traffic Sign Recognition Benchmark (GTSRB). Проверена устойчивость моделей к изменению масштаба и освещения.
 
 ## Структура проекта
-- `project.ipynb` — основной Jupyter Notebook с кодом и визуализациями.
+- `code.ipynb` — основной Jupyter Notebook с кодом и визуализациями.
 - `baseline_cnn.pth` — файл с сохраненными весами baseline cnn модели.
 - `requirements.txt` — список библиотек.
 
