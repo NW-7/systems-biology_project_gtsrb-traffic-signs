@@ -20,10 +20,10 @@
 - **Метрики:** Accuracy, Macro F1, Матрица ошибок.
 
 ## Результаты
-- **Baseline CNN:** Accuracy 97.1%, Macro F1 0.957.
-- **ResNet18:** Accuracy 96.3%, Macro F1 0.944 (обучение остановлено из-за ограничений CPU).
+- **Baseline CNN:** Accuracy 97.98%, Macro F1 0.9699.
+- **ResNet18:** Accuracy 97.36%, Macro F1 0.9588 (обучение остановлено на 3-й эпохе из-за ограничений CPU).
 - **Анализ ошибок:** Модель путает визуально похожие знаки (например, 60 и 80 км/ч). Стресс-тест на затемнение показал высокую устойчивость модели.
 
 ## Ограничения
 Модель не является системой автономного вождения. Она обучена только на 12 классах и не учитывает контекст дорожной сцены.  
-**Скачать веса ResNet18 (45 МБ):** [https://drive.google.com/file/d/1iH9vLwaUqSvx0v2Jn1JJi7LIIP8Iq0LA/view?usp=sharing]
+**Скачать веса ResNet18 (45 МБ):** [https://drive.google.com/file/d/115gfwlTyKewgs0XZ__3u18RfSao4NICd/view?usp=sharing]
