@@ -1,0 +1,1 @@
+torch, torchvision, pandas, scikit-learn, matplotlib, tqdm, Pillow
